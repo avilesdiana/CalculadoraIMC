@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="cu_l_es_tu_imc">¿Cuál es tu IMC?</string>
+    <string name="text">text</string>
+    <string name="rBm_trico">Métrico</string>
+    <string name="rBingl_s">Inglés</string>
+    <string name="peso">Peso</string>
+    <string name="estatira">estatira</string>
+    <string name="peso_kg">Peso_Kg</string>
+    <string name="m_trico">Métrico</string>
+    <string name="ingl_s">Inglés</string>
+    <string name="cm">cm</string>
+    <string name="estatura">Estatura</string>
+    <string name="unidad">Unidad</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="historico">Historico</string>
+    <string name="_0">0</string>
+    <string name="imc">IMC</string>
+    <string name="imc_prime">IMC PRIME</string>
+    <string name="categor_a">CATEGORÍA</string>
+    <string name="_">-----------------</string>
+</resources>
