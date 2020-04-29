@@ -1,4 +1,4 @@
-# CalculadoraIMC
+# Calculadora IMC
 by Diana Aviles
 
 El usuario ingresa el sistema en el cual lo quiere realizar : Métrico o Inglés, al seleccionar la opción le pedirá que ingrese ciertos datos y en que unidades.
