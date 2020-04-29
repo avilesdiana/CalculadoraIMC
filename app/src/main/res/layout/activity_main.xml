@@ -41,14 +41,14 @@
         android:id="@+id/txtPeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="68dp"
         android:layout_marginRight="68dp"
         android:text="@string/peso"
         app:layout_constraintEnd_toStartOf="@+id/txtEstatura"
-        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
 
@@ -56,11 +56,11 @@
         android:id="@+id/txtEstatura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="189dp"
+        android:layout_marginLeft="189dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
         android:text="@string/estatura"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
 
     <Button
@@ -92,16 +92,16 @@
 
     <EditText
         android:id="@+id/peso1"
-        android:layout_width="77dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/unidad"
-        android:inputType="numberDecimal"
         android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPeso" />
 
@@ -109,19 +109,19 @@
         android:id="@+id/esta3"
         android:layout_width="92dp"
         android:layout_height="40dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="21dp"
         android:layout_marginBottom="41dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/unidad"
-        android:inputType="numberDecimal"
         android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/buttonCalcular"
         app:layout_constraintStart_toEndOf="@+id/peso1"
         app:layout_constraintTop_toBottomOf="@+id/txtEstatura"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.325" />
 
     <EditText
         android:id="@+id/esta2"
@@ -136,14 +136,14 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/unidad"
-        android:inputType="numberDecimal"
         android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/buttonCalcular"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/esta3"
         app:layout_constraintTop_toBottomOf="@+id/txtEstatura"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.325" />
 
     <TextView
         android:id="@+id/txtIMCC"
